@@ -87,8 +87,7 @@ grunt.initConfig({
 })
 ```
 
-Some notes about the CSS replacements
-=====================================
+#### Some notes about the CSS replacements
 
   1. "background-image" must be set as separate rule and not as part of "background".
   2. Background repeat doesnt work good with sprites. You need to skip them from getting into sprite. If you need to add "background-repeat" of image dimensions, use it with background property than background image . This will skip the css from getting it into sprite..
