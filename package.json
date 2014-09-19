@@ -1,16 +1,16 @@
 {
-  "name": "grunt-sprite-generator",
-  "version": "0.0.5",
+  "name": "grunt-sprite-css-replace",
+  "version": "0.0.7",
   "description": "Grunt task that generates a sprite from images referenced in a stylesheet and then updates the references with the new sprite image and positions",
-  "author": "Ben Holland <hi@benholland.me>",
+  "author": "Vishwanath Arondekar",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hollandben/grunt-sprite-generator.git"
+    "url": "https://github.com/vishwanatharondekar/grunt-sprite-generator.git"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/hollandben/grunt-sprite-generator/blob/master/LICENSE-MIT"
+      "url": "https://github.com/vishwanatharondekar/grunt-sprite-generator/blob/master/LICENSE-MIT"
     }
   ],
   "engines": {
