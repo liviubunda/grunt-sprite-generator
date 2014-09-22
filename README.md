@@ -42,19 +42,19 @@ grunt.initConfig({
 ### Options
 
 #### options.algorithm
-Type: `String`
-Default value: `binary-tree`
+Type: `String`  
+Default : `binary-tree`
 
 A string value that is used to define the packing algorithm. The available options are: `top-down`, `diagonal`, `alt-diagonal`, `binary-tree`.
 
 #### options.padding
-Type: `Number`
+Type: `Number`  
 Default value: `2`
 
 The padding used between images
 
 #### options.overwrite
-Type:`boolean`
+Type:`boolean`  
 Default value : `true`
 
 This option if provided with value true will make task write change to source files, otherwise files will be written at \<source\>-sprited.css This is done to preserve the original files with references to original images which you will need in case you need to regenerate the sprite image for addition or removal of images.
