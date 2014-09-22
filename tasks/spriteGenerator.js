@@ -152,7 +152,7 @@ module.exports = function(grunt) {
             });
 
             var message = null;
-            if(options.overwrite){
+            if(!options.overwrite){
             	filepath = filepath.replace('.css', '-sprited.css');
             	message = 'File updated with image references has been created at path ', filepath;
             } else {
