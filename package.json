@@ -1,6 +1,6 @@
 {
   "name": "grunt-sprite-css-replace",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Grunt task that generates a sprite from images referenced in a stylesheet and then updates the references with the new sprite image and positions",
   "author": "Vishwanath Arondekar",
   "repository": {
