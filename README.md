@@ -53,11 +53,11 @@ Default value: `2`
 
 The padding used between images
 
-#### options.replaceOriginal
-Type:`String`
-Default value : `undefined`
+#### options.overwrite
+Type:`boolean`
+Default value : `true`
 
-This option if provided with value true will make task write change to source files, otherwise files will be written at generated/<source-path>. This is done to preserve the original files with references to original images which you will need in case you need to regenerate the sprite image for addition or removal of images.
+This option if provided with value true will make task write change to source files, otherwise files will be written at \<source\>-sprited.css This is done to preserve the original files with references to original images which you will need in case you need to regenerate the sprite image for addition or removal of images.
 
 ### Usage Examples
 

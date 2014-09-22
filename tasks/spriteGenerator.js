@@ -23,7 +23,8 @@ module.exports = function(grunt) {
             algorithm: 'binary-tree',
             baseUrl: './',
             engine: 'auto',
-            padding: 2
+            padding: 2,
+	    overwrite: true
         });
         
         console.log('options')
@@ -151,8 +152,8 @@ module.exports = function(grunt) {
             });
 
             var message = null;
-            if(!options.replaceOriginal){
-            	filepath = 'generated/' + filepath;
+            if(options.overwrite){
+            	filepath = filepath.replace('.css', '-sprited.css');
             	message = 'File updated with image references has been created at path ', 'generated/' +filepath;
             } else {
             	message = 'File', filepath, 'has been updated';
