@@ -154,9 +154,9 @@ module.exports = function(grunt) {
             var message = null;
             if(!options.overwrite){
             	filepath = filepath.replace('.css', '-sprited.css');
-            	message = 'File updated with image references has been created at path ', filepath;
+            	message = 'File updated with image references has been created at path ' + filepath;
             } else {
-            	message = 'File', filepath, 'has been updated';
+            	message = 'File' + filepath + 'has been updated';
             }
             grunt.file.write(filepath, data);
             grunt.log.writeln(message);
