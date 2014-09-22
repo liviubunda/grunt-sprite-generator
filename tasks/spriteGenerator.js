@@ -27,9 +27,6 @@ module.exports = function(grunt) {
 	    overwrite: true
         });
         
-        console.log('options')
-        console.log(options)
-
         var done = this.async();
 
         // Collect all background-image references in a given file
