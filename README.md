@@ -34,8 +34,8 @@ grunt.initConfig({
     },
     your_target: {
       // Target-specific file lists and/or options go here.
-    },
-  },
+    }
+  }
 })
 ```
 
@@ -70,27 +70,11 @@ grunt.initConfig({
     options: {},
     files: {
       'dest/default_options.png': ['src/default_options.css']
-    },
-  },
+    }
+  }
 })
 ```
 
-#### Custom Options
-In this example, custom options are used to do something else with whatever else. So if the `testing` file has the content `Testing` and the `123` file had the content `1 2 3`, the generated result in this case would be `Testing: 1 2 3 !!!`
-
-```js
-grunt.initConfig({
-  spriteGenerator: {
-    options: {
-      algorithm: 'binary-tree',
-      padding: 10
-    },
-    files: {
-      'dest/default_options.png': ['src/default_options.css']
-    },
-  },
-})
-```
 
 #### Some notes about the CSS replacements
 
