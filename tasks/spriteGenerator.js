@@ -147,7 +147,7 @@ module.exports = function(grunt) {
             		data = data.replace(replaceRegEx, 'background-image: url(\''+ spritePathToWrite +'?sprite=y\');\n    background-position: -'+ obj.coords.x +'px -'+ obj.coords.y +'px;');
             	}
             });
-
+            data = data.replace(/\?sprite\=y/gm, "");
             var message = null;
             if(!options.overwrite){
             	filepath = filepath.replace('.css', '-sprited.css');
